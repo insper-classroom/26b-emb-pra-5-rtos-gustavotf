@@ -13,6 +13,9 @@
 #include "pins.h"
 #include "ssd1306.h"
 
+#define TRIGGER_PIN 16
+#define ECHO_PIN 17
+
 // === Definições para SSD1306 ===
 
 QueueHandle_t xQueueTime;
